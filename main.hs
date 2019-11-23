@@ -23,7 +23,6 @@ isPalindrome' (x:xs) =
     else False
 
 main = do
-  putStrLn "Assignment #4 106502549"
   putStr "1. myTail test for list [1,2,3]: "
   print(myTail [1,2,3])
   putStr "2. myLast test for list [1,2,3]: "
